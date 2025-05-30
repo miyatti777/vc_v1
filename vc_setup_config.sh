@@ -21,23 +21,20 @@ DEFAULT_INVESTMENT_FOCUS="Early to Growth Stage Tech Startups"
 # VC特化ルールリポジトリ
 # 形式: "GitリポジトリURL|ターゲットパス"
 RULE_REPOS=(
-  "https://github.com/miyatti777/rules_vc_public.git|.cursor/rules/vc"
-  "https://github.com/miyatti777/rules_basic_public.git|.cursor/rules/basic"
+  "https://github.com/miyatti777/vc_rules.git|.cursor/rules/vc"
   # 必要に応じて追加 （追加するときはカンマなどで区切らず、改行のみでOK）
   # "https://github.com/username/custom_vc_rules.git|.cursor/rules/custom_vc"
 )
 
 # VC関連スクリプトリポジトリ
 SCRIPT_REPOS=(
-  "https://github.com/miyatti777/scripts_vc_public.git|scripts/vc"
-  "https://github.com/miyatti777/scripts_public.git|scripts"
+
   # 必要に応じて追加 （追加するときはカンマなどで区切らず、改行のみでOK）
   # "https://github.com/username/vc_automation.git|scripts/automation"
 )
 
 # VC投資案件サンプルリポジトリ
 PROGRAM_REPOS=(
-  "https://github.com/miyatti777/sample_investment_case.git|Stock/programs/$DEFAULT_FUND_NAME/investments/SampleStartup"
   # 必要に応じて追加 （追加するときはカンマなどで区切らず、改行のみでOK）
   # "https://github.com/username/portfolio_company_template.git|Stock/programs/$DEFAULT_FUND_NAME/investments/TEMPLATE"
 )
